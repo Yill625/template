@@ -264,6 +264,18 @@ a:hover {
 .side ul li a:hover .sidebox {
 	width: 175px;
 }
+#sidetop1{
+	width: 40px;
+	height: 40px;
+	background-color: #e3382a;
+	line-height: 40px;
+	filter:Alpha(opacity=80);
+	transition:all 0.3s;
+	text-align: center;
+}
+#sidetop1:hover{
+	background-color: #000;
+}
 .side ul li .sidetop {
 	width:50px;
 	height:50px;

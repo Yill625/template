@@ -316,7 +316,7 @@
                         </ul>
                     </div>
                     <div class="c"></div>
-<!--                     <div class="more-i">
+                    <!--                     <div class="more-i">
                         <a href="/a/kehuanli/"></a>
                     </div> -->
                 </div>
@@ -421,7 +421,7 @@
                     </li>
                 </ul>
                 <div class="c"></div>
-<!--                 <div class="news-more">
+                <!--                 <div class="news-more">
                     <a href="/a/xinwendongtai/">load more</a>
                 </div> -->
             </div>
@@ -467,7 +467,7 @@
             </div>
         </div>
         <div class="map">
-<!--             <div class="map-s">
+            <!--             <div class="map-s">
                 <a href="javascript:void(0);" class="btn">
                     <em></em>点击展开地图</a>
             </div>
@@ -586,7 +586,7 @@
     </div>
     <div class="side">
         <ul>
-<!--             <li>
+            <!--             <li>
                 <a href="http://wpa.qq.com/msgrd?v=3&uin=329435596&site=qq&menu=yes" target="_blank">
                     <div class="sidebox">
                         <img src="skin/images/side_icon02.png">在线咨询</div>
@@ -618,9 +618,9 @@
                 </div>
             </li>
             <li>
-                <a href="javascript:goTop();" class="sidetop">
+                <div href="javascript:goTop();" class="sidetop" id="sidetop1">
                     <img src="skin/images/r_icon2.png">
-                </a>
+                </div>
             </li>
         </ul>
     </div>
@@ -682,12 +682,15 @@
                 prevEl: '.swiper-button-prev',
             },
         });
-        $('a').click(function(event) {
+        $('a').click(function (event) {
             return false;
         });
-        $('#nav').find("a").click(function(event) {
+        $('#nav').find("a").click(function (event) {
             return true;
         });
+        $('.sidetop').click(function () {
+            $(window).scrollTop(0);
+        })
     </script>
     <script type="text/javascript" src="skin/js/ditu.js"></script>
     <script type="text/javascript" src="skin/js/map.js"></script>
