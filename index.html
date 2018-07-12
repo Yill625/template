@@ -29,16 +29,16 @@
             <div id="nav">
                 <ul>
                     <li>
-                        <a href='/a/kehuanli/'>我们的服务</a>
+                        <a id="id1" href='/a/kehuanli/'>我们的服务</a>
                     </li>
                     <li>
-                        <a href='/a/fuwuxiangmu/'>我们的案例</a>
+                        <a id="id2" href='/a/fuwuxiangmu/'>我们的案例</a>
                     </li>
                     <li>
-                        <a href='/a/guanyuwomen/'>最新动态</a>
+                        <a id="id3" href='/a/guanyuwomen/'>最新动态</a>
                     </li>
                     <li>
-                        <a href='/a/xinwendongtai/'>联系我们</a>
+                        <a id="id4" href='/a/xinwendongtai/'>联系我们</a>
                     </li>
                 </ul>
             </div>
@@ -690,6 +690,18 @@
         });
         $('.sidetop').click(function () {
             $(window).scrollTop(0);
+        })
+        $('#id1').click(function () {
+            $(window).scrollTop(400)
+        })
+        $('#id2').click(function () {
+            $(window).scrollTop(1100)
+        })
+        $('#id3').click(function () {
+            $(window).scrollTop(1600)
+        })
+        $('#id4').click(function () {
+            $(window).scrollTop(2100)
         })
     </script>
     <script type="text/javascript" src="skin/js/ditu.js"></script>
