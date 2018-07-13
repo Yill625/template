@@ -54,25 +54,19 @@
         <div class="m-trigger"></div>
         <ul class="m-nav">
             <li>
-                <a href="/" class="v1">首页 </a>
+                <a id="index1" href="/" class="v1">首页 </a>
             </li>
             <li>
-                <a href='/a/kehuanli/' class="v1">客户案例</a>
+                <a id="index2" href='/a/kehuanli/' class="v1">我们服务</a>
             </li>
             <li>
-                <a href='/a/fuwuxiangmu/' class="v1">服务项目</a>
+                <a id="index3" href='/a/guanyuwomen/' class="v1">我们案例</a>
             </li>
             <li>
-                <a href='/a/guanyuwomen/' class="v1">关于我们</a>
+                <a id="index4" href='/a/zhishiboke/' class="v1">最新动态</a>
             </li>
             <li>
-                <a href='/a/xinwendongtai/' class="v1">新闻动态</a>
-            </li>
-            <li>
-                <a href='/a/zhishiboke/' class="v1">知识博客</a>
-            </li>
-            <li>
-                <a href='/a/lianxiwomen/' class="v1">联系我们</a>
+                <a id="index5" href='/a/lianxiwomen/' class="v1">联系我们</a>
             </li>
         </ul>
     </div>
@@ -702,6 +696,21 @@
         })
         $('#id4').click(function () {
             $(window).scrollTop(2100)
+        })
+        $('#index1').click(function () {
+            $(window).scrollTop(0)
+        })
+        $('#index2').click(function () {
+            $(window).scrollTop(100)
+        })
+        $('#index3').click(function () {
+            $(window).scrollTop(1900)
+        })
+        $('#index4').click(function () {
+            $(window).scrollTop(3630)
+        })
+        $('#index5').click(function () {
+            $(window).scrollTop(4800)
         })
     </script>
     <script type="text/javascript" src="skin/js/ditu.js"></script>
